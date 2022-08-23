@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************ header styles ********************/
+.header-container {
+  color: #000;
+  background: linear-gradient(to right, #480048, #c04848);
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.header-container .header {
+  width: 95%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-container .header a {
+  text-decoration: none;
+  font-weight: 800;
+  color: #000;
+}
+.header-container .header a:hover {
+  color: antiquewhite;
+}
+.header-container .header .recorded_times {
+  margin-left: 20px;
+}
+.header-container .header .new_time {
+  margin-left: auto;
+}
+
+/******************** content styles *************************/
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+.content-container .content {
+  padding: 20px 0px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container .content .content_detail {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 20px;
+  display: none;
+}
+
+/******************** add_new_time styles *************************/
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  justify-content: space-around;
+}
+.info .txt_info {
+  border-radius: 5px;
+  border-color: lightgrey;
+  width: 250px;
+  height: 30px;
+}
+.info .lbl_info {
+  width: 85px;
+  text-align: right;
+  padding: 0px 20px;
+}
+.info .btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: white;
+  color: #000;
+  border: 2px solid #4CAF50;
+  transition-duration: 0.4s;
+}
+.info .btn:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/******************** recorded_times_list styles *************************/
+.table_recorded_times {
+  border-collapse: collapse;
+  border: solid 2px darkgray;
+  table-layout: auto;
+  justify-content: space-around;
+}
+.table_recorded_times tr {
+  border: solid 1px darkgray;
+}
+.table_recorded_times tr td,
+.table_recorded_times tr th {
+  border: solid 1px darkgray;
+  padding: 5px;
+}
+.table_recorded_times tr td .btn_delete,
+.table_recorded_times tr th .btn_delete {
+  width: 80px;
+  height: 30px;
+  margin: 2px;
+  border-radius: 5px;
+  background-color: white;
+  color: #000;
+  border: 2px solid #ff0000;
+  transition-duration: 0.4s;
+}
+.table_recorded_times tr td .btn_delete:hover,
+.table_recorded_times tr th .btn_delete:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+.pagination_numbers a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  padding: 0px 5px;
+}
+.pagination_numbers a:hover {
+  color: blue;
+}/*# sourceMappingURL=style.css.map */

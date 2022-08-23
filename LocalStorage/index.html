@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="header">
+            <a href="#" class="new_time" id="link_new_time">
+                    New Time
+            </a>
+
+            <a href="#" class="recorded_times" id="link_recorded_times">
+                Recorded Times
+            </a>
+
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="content">
+            <!-- ********************************* -->
+            <div class="content_detail recorded_times_list_panel">
+                <table class="table_recorded_times">
+                    <thead class="head_table_recorded_times">
+                        <tr>
+                            <th>Date</th>
+                            <th>Entering Time</th>
+                            <th>Exit Time</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody class="body_table_recorded_times">
+
+                    </tbody>
+                </table>
+            </div>
+            <!-- ********************************** -->
+            <div class="content_detail add_new_time_panel">
+                <div class="info">
+                    <label class="lbl_info">Date</label>
+                    <input type="date" class="txt_info" id="txt_date">
+                </div>
+                <div class="info">
+                    <label class="lbl_info">Entering</label>
+                    <input type="time" class="txt_info" id="txt_entering">
+                </div>
+                <div class="info">
+                    <label class="lbl_info">Exit</label>
+                    <input type="time" class="txt_info" id="txt_exit">
+                </div>
+                <div class="info">
+                    <input type="button" class="btn" id="btn_add_new_time" value="add">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>
