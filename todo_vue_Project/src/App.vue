@@ -9,10 +9,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <RouterLink to="/">Home</RouterLink> |
-            </li>
-            <li class="nav-item">
-              <RouterLink to="/todosList">Todos List</RouterLink> |
+              <RouterLink to="/">Todos List</RouterLink> |
             </li>
             <li class="nav-item">
               <RouterLink to="/newTodo">New Todo</RouterLink>

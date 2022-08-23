@@ -1,16 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import TodosListView from '../views/TodosListView.vue'
 import NewTodoView from '../views/NewTodoView.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
-  },
-  {
-    path: '/todosList',
     name: 'todosList',
     component: TodosListView
   },
