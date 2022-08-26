@@ -1,0 +1,27 @@
+.formTag{   
+    padding: 20px;
+    margin-bottom: 20px;
+}
+Button{
+    margin: 15px;
+    height: 45px;
+    text-align: center;
+    font-weight: bolder;
+}
+.checkbox{
+    height: 40ox;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+td,th{
+    text-align: center;
+}
+.dateControl{
+    display: flex;
+    align-items: center;
+}
+.dateControl{
+    height: 45px;
+}

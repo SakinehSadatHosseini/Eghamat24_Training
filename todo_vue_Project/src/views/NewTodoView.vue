@@ -44,7 +44,7 @@ export default {
     async getDb() {
       const DB_NAME = 'TodosDB'
       const DB_VERSION = '1'
-      const DBTable = 'TodosList'
+      // const DBTable = 'TodosList'
       return new Promise((resolve, reject) => {
         const request = window.indexedDB.open(DB_NAME, DB_VERSION)
 
@@ -92,8 +92,6 @@ export default {
         store.add(todo)
       })
     }
-  },
-  mounted() {
   }
 }
 </script>
